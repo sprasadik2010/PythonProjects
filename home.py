@@ -16,3 +16,8 @@ res = [lis[0] for lis in test_list]
      
 # printing result
 print ("List with only nth tuple element (i.e names) : " + str(res))
+
+def callme(n1,n2,n3):
+ print(n1+n2+n3) 
+
+callme(n1=5,n2=6,n3=7)
